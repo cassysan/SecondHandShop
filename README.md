@@ -19,3 +19,5 @@ Things that still need to be completed:
 5. Push Notifications
 
 
+Expo Link (published, but still incomplete) 
+https://expo.io/@cassysan/secondhandshp
