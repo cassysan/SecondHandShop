@@ -12,19 +12,11 @@ import {
 } from "react-native";
 
 import Screen from "./app/components/Screen";
+import ImageInput from "./app/components/ImageInput";
 
 import MessagesScreen from "./app/screens/MessagesScreen";
 import ListingsEditScreen from "./app/screens/ListingEditScreen";
 
 export default function App() {
-  const requestPermission = async () => {
-    const result = await ImagePicker.requestCameraRollPermissionsAsync();
-    if (!result.granted) {
-      alert("You need to enable Image Library Permissions");
-    }
-  };
-  useEffect(() => {
-    requestPermission();
-  }, []);
-  return <Screen></Screen>;
+  return <ImageInput />;
 }
