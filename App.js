@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import * as ImagePicker from "expo-image-picker";
 
 import {
@@ -18,5 +18,9 @@ import MessagesScreen from "./app/screens/MessagesScreen";
 import ListingsEditScreen from "./app/screens/ListingEditScreen";
 
 export default function App() {
-  return <ImageInput />;
+  const [imageUri, setImageUri] = useState();
+
+  return (
+    <ImageInput imageUri={imageUri} onChangeImage={(uri) => setImageUri(uri)} />
+  );
 }
