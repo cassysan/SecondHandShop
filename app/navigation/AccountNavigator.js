@@ -7,7 +7,7 @@ const Stack = createStackNavigator();
 
 const AccountNavigator = () => (
   <Stack.Navigator>
-    <Stack.Screen name="MyAccount" component={MyAccountScreen} />
+    <Stack.Screen name="My Account" component={MyAccountScreen} />
     <Stack.Screen name="MyMessages" component={MessagesScreen} />
   </Stack.Navigator>
 );

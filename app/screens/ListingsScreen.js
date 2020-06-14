@@ -4,6 +4,7 @@ import { FlatList, StyleSheet } from "react-native";
 import Screen from "../components/Screen";
 import Card from "../components/Card";
 import { ScrollView } from "react-native-gesture-handler";
+import routes from "../navigation/routes";
 
 const initialListings = [
   {
@@ -31,7 +32,7 @@ function ListingsScreen({ navigation }) {
             title={item.title}
             subTitle={item.subTitle}
             image={item.image}
-            onPress={() => navigation.navigate("ListingsDetails", item)}
+            onPress={() => navigation.navigate(routes.LISTING_DETAILS, item)}
           />
         )}
       />

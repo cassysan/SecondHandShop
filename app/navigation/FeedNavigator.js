@@ -8,7 +8,7 @@ const Stack = createStackNavigator();
 const ListingsNavigator = () => (
   <Stack.Navigator mode="modal" screenOptions={{ headerShown: false }}>
     <Stack.Screen name="Listings" component={ListingsScreen} />
-    <Stack.Screen name="ListingsDetails" component={ListingDetails} />
+    <Stack.Screen name="ListingDetails" component={ListingDetails} />
   </Stack.Navigator>
 );
 
