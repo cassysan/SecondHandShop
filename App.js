@@ -19,19 +19,5 @@ import MessagesScreen from "./app/screens/MessagesScreen";
 import ListingsEditScreen from "./app/screens/ListingEditScreen";
 
 export default function App() {
-  const [imageUris, setImageUris] = useState([]);
-  const handleRemove = (uri) => {
-    setImageUris([imageUris.filter((imageUri) => imageUri !== uri)]);
-  };
-  const handleAdd = (uri) => {
-    setImageUris([...imageUris, uri]);
-  };
-
-  return (
-    <ImageInputList
-      imageUris={imageUris}
-      onAddImage={handleAdd}
-      onRemoveImage={handleRemove}
-    />
-  );
+  return <ListingsEditScreen />;
 }

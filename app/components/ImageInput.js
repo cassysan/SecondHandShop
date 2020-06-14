@@ -45,7 +45,7 @@ function ImageInput({ imageUri, onChangeImage }) {
   return (
     <TouchableWithoutFeedback onPress={handlePress}>
       <View style={styles.container}>
-        {!imageUri && 
+        {!imageUri && (
           <MaterialCommunityIcons
             color={colors.medium}
             name="camera"
