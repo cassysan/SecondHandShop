@@ -3,7 +3,7 @@ import { FlatList, StyleSheet } from "react-native";
 
 import Screen from "../components/Screen";
 import Card from "../components/Card";
-import ListItemSeparator from "../components/ListItemSeparator";
+import { ScrollView } from "react-native-gesture-handler";
 
 const initialListings = [
   {
@@ -16,10 +16,10 @@ const initialListings = [
     id: 2,
     title: "Long Pants",
     subTitle: "$100",
-    image: require("../assets/redjacket.jpeg"),
+    image: require("../assets/chair.jpg"),
   },
 ];
-function ListingsScreen() {
+function ListingsScreen({ navigation }) {
   return (
     <Screen>
       <FlatList
@@ -31,6 +31,7 @@ function ListingsScreen() {
             title={item.title}
             subTitle={item.subTitle}
             image={item.image}
+            onPress={() => navigation.navigate("ListingsDetails", item)}
           />
         )}
       />

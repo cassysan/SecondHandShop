@@ -1,10 +1,9 @@
 import React from "react";
 import { View, StyleSheet, Text, FlatList } from "react-native";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import Screen from "../components/Screen.js";
 import Icon from "../components/Icon.js";
-import ListItem from "../components/ListItem";
+import ListItem from "../components/lists/ListItem";
 import colors from "../config/colors.js";
 
 const items = [
@@ -19,13 +18,14 @@ const items = [
   {
     id: 2,
     title: "My Messages",
+    targetScreen: "MyMessages",
     icon: {
       name: "email",
       backgroundColor: colors.secondary,
     },
   },
 ];
-function MyAccountScreen() {
+function MyAccountScreen({ navigation }) {
   return (
     <Screen>
       <View style={styles.container}>
@@ -42,6 +42,7 @@ function MyAccountScreen() {
             renderItem={({ item }) => (
               <ListItem
                 title={item.title}
+                onPress={() => navigation.navigate(item.targetScreen)}
                 IconComponent={
                   <Icon
                     name={item.icon.name}
