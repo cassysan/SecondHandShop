@@ -14,7 +14,7 @@ This app requires
    -- Specify that project is using expo: ( expo install
    react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view)
    -- Install Stack Navigator ( npm install @react-navigation/stack)
-   -- Install Bottom Tabs from React Navigation ( npm install @react-navigation/bottom-tabs )
+   -- Install Bottom Tabs from React Navigation ( npm install @react-navigation/bottom-tabs)
 7. Expo Image API connectivity { https://docs.expo.io/versions/latest/react-native/image/}
 8. Expo Location API connectivity {https://docs.expo.io/versions/latest/sdk/location/}
 9.

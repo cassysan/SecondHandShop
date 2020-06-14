@@ -1,8 +1,12 @@
-import React from "react";
-import { Text } from "react-native";
+import * as React from "react";
+import { NavigationContainer } from "@react-navigation/native";
 
-import Screen from "./app/components/Screen";
+import AuthNavigator from "./app/navigation/AuthNavigator";
 
 export default function App() {
-  return <Text></Text>;
+  return (
+    <NavigationContainer>
+      <AuthNavigator />
+    </NavigationContainer>
+  );
 }
