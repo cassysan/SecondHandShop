@@ -4,24 +4,24 @@ React Native application meant as a secondhand marketplace
 
 This app requires
 
-1. Expo
-2. Material Icons from Expo
-3. react-native-gesture-handler from expo
-4. formik (React forms)
-5. Yup (Form Validation)
-6. React Navigation
-7. Expo Image API connectivity
-8. Expo Location API connectivity
+1. Expo { https://expo.io/}
+2. Material Icons from Expo { https://docs.expo.io/guides/icons/}
+3. React Native Gesture Handler w/ Expo { https://docs.expo.io/versions/latest/sdk/gesture-handler/}
+4. formik (React forms) { https://jaredpalmer.com/formik/docs/overview}
+5. Yup (Form Validation) { https://www.npmjs.com/package/yup}
+6. React Navigation from { https://reactnavigation.org/docs/getting-started }
+7. Expo Image API connectivity { https://docs.expo.io/versions/latest/react-native/image/}
+8. Expo Location API connectivity {https://docs.expo.io/versions/latest/sdk/location/}
+9.
 
 This app is still under development.
 
 Things that still need to be completed:
 
-1. Navigation
-2. Networking
-3. Offline Support
-4. Authentication and Authorization
-5. Push Notifications
+- Networking
+- Offline Support
+- Authentication and Authorization
+- Push Notifications
 
 Expo Link (published, but still incomplete)
 https://expo.io/@cassysan/secondhandshp
