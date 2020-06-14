@@ -11,6 +11,7 @@ This app requires
 5. Yup (Form Validation) { https://www.npmjs.com/package/yup}
 6. React Navigation from { https://reactnavigation.org/docs/getting-started }  
    -- Use Version 5 ( npm install @react-navigation/native@5 )
+   -- Specify that project is using expo: ( expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view)
 7. Expo Image API connectivity { https://docs.expo.io/versions/latest/react-native/image/}
 8. Expo Location API connectivity {https://docs.expo.io/versions/latest/sdk/location/}
 9.
