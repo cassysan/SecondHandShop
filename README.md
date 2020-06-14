@@ -9,7 +9,8 @@ This app requires
 3. React Native Gesture Handler w/ Expo { https://docs.expo.io/versions/latest/sdk/gesture-handler/}
 4. formik (React forms) { https://jaredpalmer.com/formik/docs/overview}
 5. Yup (Form Validation) { https://www.npmjs.com/package/yup}
-6. React Navigation from { https://reactnavigation.org/docs/getting-started }
+6. React Navigation from { https://reactnavigation.org/docs/getting-started }  
+   -- Use Version 5 ( npm install @react-navigation/native@5 )
 7. Expo Image API connectivity { https://docs.expo.io/versions/latest/react-native/image/}
 8. Expo Location API connectivity {https://docs.expo.io/versions/latest/sdk/location/}
 9.
